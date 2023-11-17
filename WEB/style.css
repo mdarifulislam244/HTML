@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 100vw;
+    height: 100vh;
+    background-color: #ccc;
+    
+}
+
+.box{
+    width: 350px;
+    height: 350px;
+    background-color: #fccfff;
+    border: 1px solid black;
+    display: flex;
+    padding: 20px auto;
+    margin: 20px auto;
+    
+}
