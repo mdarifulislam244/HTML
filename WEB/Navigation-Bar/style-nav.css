@@ -69,7 +69,7 @@ Main menu start */
 
 }
 .main-menu a:hover{
-    text-decoration: underline;
+    /* text-decoration: underline; */
     color:yellow;
 
 }
@@ -96,4 +96,91 @@ Main menu start */
 }
 .right-menu button > span{
     font-size: 1.5rem;
+}
+/* Right menu end */
+
+/* Profile Dropdown Menu Start */
+.dropdown:hover .dropdown-items{
+    display:block;
+}
+.dropdown{
+    position: relative;
+}
+
+.dropdown > .dropdown-items{
+   position: absolute; 
+   right: 0%;
+   background-color: #fff;
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+   width: 200px;
+   border-radius: 0.15rem;
+   display: none;
+}
+.dropdown-items-ul{
+    list-style-type: none;
+
+}
+.dropdown-item-li{
+    padding: 0.5rem 1rem;
+    text-align: left;
+
+}
+.dropdown-item-li:hover{
+    background-color:#ddd;
+}
+.dropdown-item-li  a{
+color: #333;
+font-size: 0.9rem;
+letter-spacing: normal;
+font-weight: bold;
+
+}
+.divider{
+    border: none;
+    border-bottom: 1px solid #ddd;
+}
+
+/* Dropdown Menu End */
+/* Mega Menu start */
+.mega-menu{
+    position: relative;
+    padding: 1rem 0;
+}
+.mega-menu:hover .mega-menu-container{
+    display: flex;
+    gap:2rem;
+
+}
+
+.mega-menu-container{
+    position: absolute;
+    top:100%;
+    width:  700px;
+    height: 300px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    display: none;
+    padding: 1rem 2rem;
+}
+/*Container design end */
+
+.category-list{
+    list-style-type: none;
+    margin-top: 1rem;
+
+}
+.category-list li{
+    padding: 0.5rem 1rem;
+
+}
+.category-list a{
+    color:#333;
+    font-size: 0.8rem;
+    text-align: left;
+
+
+}
+.category-list a:hover{
+    color: aqua ;
+    text-decoration: none;
 }
