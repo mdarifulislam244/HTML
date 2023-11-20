@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style-cform.css">
+    <title>Complex form</title>
+</head>
+<body>
+    <div class="container">
+        <header class="heading">
+            <h1>Complex form design</h1>
+        </header>
+        <section class="form-section">
+            <form action="">
+                <div class="inline-form">
+                    <div class="form-group">
+                        <label for="first-name">First Name</label>
+                        <input type="text" id="first-name">
+                    </div>
+                    <div class="form-group">
+                        <label for="last-name">Last Name</label>
+                        <input type="text" id="last-name">
+                    </div>
+
+                </div>
+                <div class="inline-form">
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email">
+                    </div>
+                    <div class="form-group">
+                        <label for="phone">Phone No</label>
+                        <input type="tel" id="phone-no">
+                    </div>
+                </div>
+                <div class="inline-form">
+                    <div class="form-group">
+                        <label for="country">Country</label>
+                        <select name="" id="country">
+                            <option value="Bangladesh">Bangladesh</option>
+                            <option value="India">India</option>
+                            <option value="Pakistan">Pakistan</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="city">City</label>
+                        <select name="" id="city">
+                            <option value="Dhaka">Dhaka</option>
+                            <option value="Kolkata">Kolkata</option>
+                            <option value="Lahore">lahore</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="gender">Gender</label>
+                    <div class="radio-inline-group">
+                        <div class="radio-inline">
+                            <input type="radio" value="Male" id="male" name="gender">
+                            <label for="male">Male</label>
+                        </div>
+                    
+                    
+                        <div class="radio-inline">
+                            <input type="radio" value="Female" id="female" name="gender">
+                            <label for="male">Female</label>
+                        </div>
+                   
+                  
+                        <div class="radio-inline">
+                            <input type="radio" value="Other" id="other" name="gender">
+                            <label for="other">Other</label>
+                        </div>
+                    </div>
+                </div>
+                <div class="form-group bio">
+                    <label for="bio">Short Bio</label>
+                    <textarea name="Bio" id="bo"></textarea>
+                </div>
+                <div class="inline-form">
+                    <div class="form-group">
+                        <label for="password">Password</label>
+                        <input type="password" id="password">
+                    </div>
+                    <div class="form-group">
+                        <label for="password2">Confirm Password</label>
+                        <input type="password" id="password2">
+                    </div>
+
+                </div>
+                <div class="aggrement">
+                    
+                       <input type="checkbox" id="aggrement">
+                       <label for="aggrement">I accept terms and conditions</label>
+                    
+                </div>
+
+                <div class="form-group">
+                    <button class="btn btn-reset" type="reset">Reset</button>
+                
+                    <button class="btn btn-submit" type="submit">Submit</button>
+                </div>
+
+            </form>
+        </section>
+
+    </div>
+</body>
+</html>
