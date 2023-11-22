@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 1440px;
+    margin: 0 auto;
+
+}
+
+html,body{
+    width: 100vw;
+    min-height: 100vh;
+    background-color: #efefef;
+    font-family: 'Quicksand', sans-serif;
+}
+
+/* Nav Bar Start */
+nav{
+    width: 100%;
+    height: 100px;
+    background-color:#151d38;
+    color: #ffffff;
+}
+.brand h1{
+    font-size: 48px;
+    font-weight: 700;
+}
+.nav-container{
+    height: 100px;
+    display: flex;
+    align-items:center;
+
+}
+.nav-item-container{
+    margin-left: auto;
+    display: flex;
+    
+}
+.nav-items a,
+.nav-items a:hover,
+.nav-items a:active,
+.nav-items a:visited{
+    font-size: 24px;
+    font-weight: 500 ;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+
+
+}
+.nav-items{
+    margin-left: 24px;
+}
+
+
+/* Profile card section */
+.profile-card-container{
+    
+    width: 100%;
+    height: 470px;
+    background-color: #fff;
+    /* border: 5px solid #151d38; */
+    border-radius: 10px;
+    background-color:#555;
+    box-shadow: 0 4px 8px 0px rgba(0,0 0, 0, 0.2);
+}
+.profile-picture-container{
+    width: 470px;
+    height: 470px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+.squire-image{
+    width: 370px;
+    border: 5px solid #151d38 ;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+    
+}
+.circle-image{
+    width: 270px;
+    height: 270px;
+    border: 5px solid #151d38;
+    border-radius: 50%;
+    margin: 30px;
+    display: flex;
+    
+    overflow: hidden;
+
+}
+.circle-image img{
+width: 100%;
+height: 100%;
+}
+.profile-info-container{
+    width: 930px;
+}
